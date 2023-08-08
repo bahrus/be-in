@@ -11,5 +11,19 @@ Option 1:
 <meta itemprop=language content=js>
 <meta itemprop=topic content=classes>
 <meta itemprop=section content=basic-improved---prototype-definition>
-<a be-in="href:protocol|://|domain|/|articleType|/|language|/|language|-|classes|/#|section" >Basic, Improved - Prototype Definition</a>
+<a be-in="href:{protocol}://{domain}/{articleType}/{language}/{language}-{classes}/#{section}" >Basic, Improved - Prototype Definition</a>
+```
+
+Option 2:
+
+```html
+<meta itemprop=protocol content=https>
+<meta itemprop=domain content=docs.joshatz.com>
+<meta itemprop=articleType content=cheatsheets>
+<meta itemprop=language content=js>
+<meta itemprop=topic content=classes>
+<meta itemprop=section content=basic-improved---prototype-definition>
+<a be-in='{
+    "href": "{protocol}://{domain}/{articleType}/{language}/{language}-{classes}/#{section}"
+}' >Basic, Improved - Prototype Definition</a>
 ```
