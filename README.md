@@ -13,7 +13,7 @@ Example 1:
 <meta itemprop=language content=js>
 <meta itemprop=topic content=classes>
 <meta itemprop=section content=basic-improved---prototype-definition>
-<a be-in='{
+<a be-joined='{
     "href": "{protocol}://{domain}/{articleType}/{language}/{language}-{classes}/#{section}"
 }'
 >Basic, Improved - Prototype Definition</a>
